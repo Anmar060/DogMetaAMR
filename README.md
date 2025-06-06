@@ -20,9 +20,9 @@ As of May 2025
   c. ABRicate on assembled reads
 
 Under construction
-1. Microbial identification using the RefSeqv205 but on Metaphlan v
-2. HERRO correction - improves? makes things worse?
-3. Rarefaction curves: ~1/3 of samples are maybe sufficiently sequenced... new types or ARG appearing
+1. Microbial identification using the RefSeqv205 but on Metaphlan v.4
+2. HERRO correction - improves? makes things worse? -loose many reads, did not make sense for fecal_db but may for RefSeq205
+3. Rarefaction curves: ~1/3 of samples are maybe sufficiently sequenced... new types of ARG keep appearing
 
 Tools to look at
 1. DAStool (binning correction)
@@ -33,5 +33,5 @@ Tools to look at
 
 Previous
 Based on https://doi.org/10.1099/mgen.0.000802 (Novel canine metagenome Cusco et al 2022)
-MetaBAT to replace DIAMOND and MEGAN-LR
+Used MetaBAT and Kraken2/Bracken to replace DIAMOND and MEGAN-LR, data depth was not similar in depth for the rest of the analysis
 
