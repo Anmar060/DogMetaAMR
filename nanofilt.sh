@@ -3,6 +3,8 @@
 TARGET_DIR=/home/s1887840/mazeri_grp/Ana/demux/ALL/fastq
 OUTPUT_DIR=/home/s1887840/mazeri_grp/Ana/demux/ALL/filtered
 
+module load anaconda/2024.02
+conda activate nanofilt_ana202406
 pwd
 
 for i in barcode01 barcode02 barcode03 barcode04 barcode05 barcode06 \
