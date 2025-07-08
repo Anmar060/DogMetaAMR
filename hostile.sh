@@ -3,7 +3,7 @@
 #$ -l h_rt=10:00:00
 #$ -cwd
 #$ -l h_vmem=80G
-#$ -N seqkit
+#$ -N host_b3
 #$ -R y
 #$ -m be
 #$ -M s1887840@ed.ac.uk
@@ -32,5 +32,5 @@ barcode80 barcode81 barcode82 barcode83 barcode84 barcode85 \
 barcode86 barcode87 barcode88 barcode89 barcode90 barcode91 \
 barcode92 barcode93 barcode94 barcode95 barcode96; do
 
-hostile clean --index /home/s1887840/mazeri_grp/Ana/tools/genomes/Canis_lupus_familiaris.ROS_Cfam_1.0.dna_sm.toplevel.fa.gz -o $OUTPUT_DIR --fastq>
+hostile clean --index /home/s1887840/mazeri_grp/Ana/tools/genomes/Canis_lupus_familiaris.ROS_Cfam_1.0.dna_sm.toplevel.fa.gz -o $OUTPUT_DIR --fastq1 $TARGET_DIR/unduped_$i.fastq.gz
 done
