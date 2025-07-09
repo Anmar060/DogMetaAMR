@@ -22,6 +22,7 @@ barcode79 barcode80 barcode81 barcode82 barcode83 barcode84 \
 barcode85 barcode86 barcode87 barcode88 barcode89 barcode90 \
 barcode91 barcode92 barcode93 barcode94 barcode95 barcode96; do
 
+mkdir $OUTPUT_DIR/$i/
 NanoPlot -t 2 --fastq $TARGET_DIR/filtered_$i.fastq.gz -o $OUTPUT_DIR/$i/
 
 done
