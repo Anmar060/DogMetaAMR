@@ -29,5 +29,6 @@ barcode91 barcode92 barcode93 barcode94 barcode95 barcode96; do
 
 
 #flye --nano-raw $TARGET_DIR/filtered_$i.fastq.gz --out-dir $OUTPUT_DIR/$i_flye/ --keep-haplotypes --meta --plasmids
-seqkit rmdup -s < $TARGET_DIR/filtered_$i.fastq.gz > $OUTPUT_DIR/duped_$i.fastq.gz
+seqkit rmdup -s < $TARGET_DIR/filtered_$i.fastq.gz > $OUTPUT_DIR/duped_$i.fastq
+pigz $OUTPUT_DIR/duped_$i.fastq
 done
