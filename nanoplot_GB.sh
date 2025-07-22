@@ -1,4 +1,6 @@
 #!/bin/bash
+#module load anaconda/2024.02
+#conda activate nanoplot_202501
 
 TARGET_DIR=/home/s1887840/mazeri_grp/Ana/demux/ALL/gb
 
