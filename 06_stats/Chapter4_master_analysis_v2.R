@@ -1,4 +1,4 @@
-# Chapter 3 | Puppy faecal resistome and ARG host context
+# Chapter 4 | Puppy faecal resistome and ARG host context
 # One fresh R session; one output root. Run from the top with source().
 #
 # Results questions:
