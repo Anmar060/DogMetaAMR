@@ -154,6 +154,9 @@ methylation-profile similarity between plasmid-like ARG reads and candidate chro
 
 These analyses are retained in the repository because they document both the successful and resolution-limited outcomes of methylation-assisted ARG contextualisation.
 
+CUPID, from Ürel (2026) https://doi.org/10.64898/2026.02.16.706128
+FLUPOULmeta from Bloemen (2025) https://doi.org/10.3389/fmicb.2025.1614301
+
 
 6. Statistical analysis
 
