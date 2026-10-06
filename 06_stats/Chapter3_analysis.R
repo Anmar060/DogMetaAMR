@@ -1,5 +1,5 @@
 ##############################################################################
-## Chapter 2 – Puppy gut microbiome: diversity, composition & GI upset
+## Chapter 3 – Puppy gut microbiome: diversity, composition & GI upset
 ## Master analysis script (post-50k-read filter)
 ## Consolidates: postfilter_PCoA_PCA_GLMM_GI_AMR.R + microbiome_depth.R
 ##                + dog_feed_functional.R
